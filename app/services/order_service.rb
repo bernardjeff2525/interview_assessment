@@ -23,7 +23,7 @@ class OrderService
   end
 
   def highest_transaction
-    # Get the highest transaction order
+    # Get the first highest transaction that success
   end
 
   def success_order_count

@@ -12,13 +12,12 @@
 
 ActiveRecord::Schema[7.0].define(version: 2023_01_04_025633) do
   create_table "orders", charset: "utf8mb4", force: :cascade do |t|
-    t.string "username"
+    t.bigint "user_id"
     t.decimal "amount", precision: 10
     t.integer "order_type"
     t.integer "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "user_id"
     t.index ["user_id"], name: "index_orders_on_user_id"
   end
 

@@ -32,9 +32,9 @@ Go to `/exam` directory to answer the conditionals up to Array and hashes
 
     ```ruby=
     def largest_number(a,b,c)
-     # "a is the largest number"
-     # "b is the largest number"
-     # "c is the largest number"  
+     # "Variable "A" has the largest number"
+     # "Variable B has the largest number"
+     # "Variable C has the largest number"
     end    
     ```
 

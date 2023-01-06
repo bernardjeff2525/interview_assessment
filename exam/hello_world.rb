@@ -1,1 +1,1 @@
-puts Order.last
+puts 'Hello World'
